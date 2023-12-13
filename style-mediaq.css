@@ -1,0 +1,40 @@
+/* Kleine Bildschirme (Handys, Smartphones) */
+@media only screen and (max-width: 600px) {
+    /* Fügen Sie hier Ihre Styles für kleine Bildschirme hinzu */
+    body {
+        font-size: 12px;
+      }
+    .header {
+        display: none;
+      }
+    }
+  
+  /* Mittlere Bildschirme (Tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Fügen Sie hier Ihre Styles für mittlere Bildschirme hinzu */
+    body {
+        font-size: 16px;
+      }
+    
+      .header {
+        display: block;
+      }
+    
+      .sidebar {
+        width: 30%;
+      }
+  }
+  
+  /* Große Bildschirme (Desktops, Laptops) */
+  @media only screen and (min-width: 1025px) {
+    /* Fügen Sie hier Ihre Styles für große Bildschirme hinzu */
+
+    body {
+        font-size: 18px;
+      }
+    
+      .sidebar {
+        width: 20%;
+      }
+  }
+  
