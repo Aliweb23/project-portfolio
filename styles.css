@@ -24,6 +24,7 @@ nav {
 
 .logo {
     font-size: 1.5em;
+    z-index: 1;
 }
 
 nav ul {
@@ -49,7 +50,7 @@ nav li a:hover{
 
 .hero-section {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .cta-button {
@@ -87,29 +88,29 @@ nav li a:hover{
 
 .self{
     margin-bottom: 1rem;
-    border: 3px rgb(0, 174, 255) solid;
+    border: 2px rgb(0, 174, 255) solid;
     border-radius: 50%;
 }
 h2{
     background: #fff;
-    justify-content: center;
+    text-align: justify;
     width: 600px;
     margin: 0 auto;
 }
-.story {
+.story p{
     display: flex;
     justify-content: left;
     margin: 0 auto; /* Änderung: Zentriert die Klasse horizontal */
-    padding: 15px;
-    width: 500px;
+    padding: 10px;
+    width: 460px;
     max-width: 100%; /* Hinzugefügt: Begrenzt die Breite auf 100%, falls der Bildschirm kleiner als 500px ist */
     height: fit-content;
     text-align: center;
     background: white;
-    border: 2px rgb(0, 174, 255) solid;
+    border: 1px rgb(0, 174, 255) solid;
     border-radius: 10%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 400;
+    font-weight: 100;
 }
 
 #projects {
@@ -125,7 +126,8 @@ h2{
 .project {
     margin: 15px;
     padding: 15px;
-    border: 2px solid #9c9999c7;
+    border: 2px solid #9c9797c7;
+    font-size: small;
     display: flex;
     flex-direction: column; /* Änderung: Projekte in Spalten anordnen */
     align-items: center; /* Änderung: Inhalte zentrieren */
@@ -167,6 +169,7 @@ h2{
 .contact-links {
     display: flex; /* Horizontales Zentrieren der Links */
     justify-content: center; /* Zentriert die Links innerhalb des Flex-Containers */
+    font-weight: 100;
 }
 
 .contact-links div {
@@ -175,12 +178,12 @@ h2{
     color: #333;
     text-decoration: none;
     font-size: larger;
-    font-weight: 600;
+    font-weight: 100;
     list-style: none;
 }
 .icon{
-    width: 100px;
-    height: 110px;
+    width: 90px;
+    height: 95px;
     border-radius: 100%;
 }
 .follow{
