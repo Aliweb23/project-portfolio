@@ -98,18 +98,18 @@ h2{
 }
 .story {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin: 0 auto; /* Änderung: Zentriert die Klasse horizontal */
     padding: 15px;
-    width: 600px;
+    width: 500px;
     max-width: 100%; /* Hinzugefügt: Begrenzt die Breite auf 100%, falls der Bildschirm kleiner als 500px ist */
     height: fit-content;
-    text-align: justify;
+    text-align: center;
     background: white;
     border: 2px rgb(0, 174, 255) solid;
     border-radius: 10%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 #projects {
@@ -163,12 +163,6 @@ h2{
 #contact {
     padding: 50px 0;
 }
-
-/* .contact-links a {
-    display: inline-block;
-    margin-bottom: 10px;
-    color: #333;
-} */
 
 .contact-links {
     display: flex; /* Horizontales Zentrieren der Links */
