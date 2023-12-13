@@ -197,3 +197,29 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* ############################################################################ */
+.project-card {
+    display: flex;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+}
+
+.project-info {
+    flex: 1;
+}
+
+.project-info h2 {
+    color: #333;
+}
+
+.project-info p {
+    color: #555;
+}
+
+.project-image img {
+    width: 400px;
+    height: auto;
+    border: 1px solid #ddd;
+}
