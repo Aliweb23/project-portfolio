@@ -97,15 +97,14 @@ h2{
     width: 600px;
     margin: 0 auto;
 }
-.story p{
+.story {
     display: flex;
-    justify-content: left;
     margin: 0 auto; /* Änderung: Zentriert die Klasse horizontal */
     padding: 10px;
+    text-align: center;
     width: 460px;
     max-width: 100%; /* Hinzugefügt: Begrenzt die Breite auf 100%, falls der Bildschirm kleiner als 500px ist */
     height: fit-content;
-    text-align: center;
     background: white;
     border: 1px rgb(0, 174, 255) solid;
     border-radius: 10%;
@@ -113,8 +112,15 @@ h2{
     font-weight: 100;
 }
 
-#projects {
+.text1{
+    text-align: justify;
+    font-size: small;
+    padding: 5px;
+    margin: 3px;
+}
 
+#projects {
+    background-color: #FFFAEB;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -163,6 +169,7 @@ h2{
 }
 
 #contact {
+    background-color: #FFF5D6;
     padding: 50px 0;
 }
 
@@ -182,8 +189,8 @@ h2{
     list-style: none;
 }
 .icon{
-    width: 90px;
-    height: 95px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
 }
 .follow{
