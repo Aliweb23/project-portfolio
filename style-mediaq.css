@@ -1,54 +1,55 @@
 /* Kleine Bildschirme (Handys, Smartphones) */
 @media only screen and (max-width: 600px) {
-    /* Fügen Sie hier Ihre Styles für kleine Bildschirme hinzu */
-    body {
-        font-size: 14px;
-        background-color: #f0f0f0;
-      }
-    .header {
-        display: none;
-        padding: 10px;
-        text-align: center;
-      }
-    }
-  
-  /* Mittlere Bildschirme (Tablets) */
-  @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    /* Fügen Sie hier Ihre Styles für mittlere Bildschirme hinzu */
-    body {
-        font-size: 16px;
-        background-color: #f5f5f5;
-      }
-    
-      .header {
-        display: block;
-        padding: 15px;
-        text-align: center;
-      }
-/*     
-      .sidebar {
-        width: 30%;
-      } */
+  /* Fügen Sie hier Ihre Styles für kleine Bildschirme hinzu */
+  body {
+      font-size: 14px;
+      background-color: #f0f0f0;
   }
-  
-  /* Große Bildschirme (Desktops, Laptops) */
-  @media only screen and (min-width: 1025px) {
-    /* Fügen Sie hier Ihre Styles für große Bildschirme hinzu */
-
-    body {
-        font-size: 18px;
-        background-color:  #e0e0e0;
-      }
-
-
-      .header {
-        display: none;
-        padding: 20px;
-        text-align: center;
-      }
-    
-      /* .sidebar {
-        width: 20%;
-      } */
+  #container {
+      width: 90%;
+      margin: 0 auto; /* Zentrierung des Containers */
   }
-  
+  .header {
+      display: none;
+      padding: 10px;
+      text-align: center;
+  }
+}
+
+/* Mittlere Bildschirme (Tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Fügen Sie hier Ihre Styles für mittlere Bildschirme hinzu */
+  body {
+      font-size: 16px;
+      background-color: #f5f5f5;
+  }
+
+  .header {
+      display: block;
+      padding: 15px;
+      text-align: center;
+  }
+
+  .sidebar {
+      width: 30%;
+  }
+}
+
+/* Große Bildschirme (Desktops, Laptops) */
+@media only screen and (min-width: 1025px) {
+  /* Fügen Sie hier Ihre Styles für große Bildschirme hinzu */
+  body {
+      font-size: 18px;
+      background-color:  #e0e0e0;
+  }
+
+  .header {
+      display: none;
+      padding: 20px;
+      text-align: center;
+  }
+
+  /* .sidebar {
+      width: 20%;
+  } */
+}
