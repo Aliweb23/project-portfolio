@@ -1,27 +1,36 @@
 /* Kleine Bildschirme (Handys, Smartphones) */
 @media only screen and (max-width: 600px) {
   /* Fügen Sie hier Ihre Styles für kleine Bildschirme hinzu */
-  body {
-      font-size: 14px;
-      background-color: #f0f0f0;
-  }
-  #container {
+  
+  /* #container {
       width: 90%;
-      margin: 0 auto; /* Zentrierung des Containers */
+      margin: 0 auto;
   }
   .header {
       display: none;
       padding: 10px;
       text-align: center;
   }
+
+  #skills {
+    padding: 2rem 4rem;
+    width: 100%;
+}
+
+  .skills-content {
+    flex-direction: column;
+  }
+  .skill-card{
+    width: 30%;
+  } */
 }
 
 /* Mittlere Bildschirme (Tablets) */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media only screen and (min-width: 901px) and (max-width: 1024px) {
   /* Fügen Sie hier Ihre Styles für mittlere Bildschirme hinzu */
-  body {
-      font-size: 16px;
-      background-color: #f5f5f5;
+
+  #container {
+    width: 80%;
   }
 
   .header {
@@ -30,26 +39,70 @@
       text-align: center;
   }
 
+  nav ul.items-list {
+    flex-direction: row;
+}
+
   .sidebar {
       width: 30%;
   }
+
+  #skills {
+    /* background-color: #FFF5D6; */
+    padding: 2rem 2rem;
+}
+
+  .skills-content {
+    flex-direction: row;
+  }
+  .skill-card{
+    width: 30%;
+  }
+  .skill-card:first-child{
+    margin-top: 20px;
+  }
+
+  .all-projects{
+    flex-direction: row;
+  }
+
 }
 
 /* Große Bildschirme (Desktops, Laptops) */
 @media only screen and (min-width: 1025px) {
   /* Fügen Sie hier Ihre Styles für große Bildschirme hinzu */
-  body {
-      font-size: 18px;
-      background-color:  #e0e0e0;
-  }
 
+  #container {
+    width: 80%;
+  }
   .header {
       display: none;
       padding: 20px;
       text-align: center;
   }
 
-  /* .sidebar {
-      width: 20%;
-  } */
+  nav ul.items-list {
+    flex-direction: row;
+    padding-right: 50px;
+}
+
+  #skills {
+    padding: 2rem 2rem;
+  }
+
+  .skills-content {
+    flex-direction: row;
+  }
+
+  .skill-card{
+    width: 30%;
+  }
+  .skill-card:first-child{
+    margin-top: 20px;
+  }
+
+  .all-projects{
+    flex-direction: row;
+  }
+
 }
