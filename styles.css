@@ -1,5 +1,4 @@
 body {
-    /* font-family: 'Arial', sans-serif; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #fdfdfd;
     color: #060606;
@@ -85,7 +84,7 @@ nav li a {
 
 
 #skills {
-    /* background-color: #FFF5D6; */
+    background-color: #FFF5D6;
     padding: 1rem 1rem;
 }
 
@@ -125,8 +124,6 @@ nav li a {
     width: 100%;
     height: auto;
     border: 1px solid rgb(250, 247, 247);
-    /* margin: 5px;
-    padding-left: 3px; */
     border-radius: 20px;
     /* background: #333; */
     /* padding: 10px; */
